@@ -1,0 +1,20 @@
+Inlämning
+Skicka en länk till webbsidan till läraren i ett gruppmeddelande på slack. Webbsidan ska vara publicerad på GitHub Pages.
+
+Betygskriterier
+Vi kommer inte evaluera er design ur något perspektiv med smak. Men satsa på en sida ni kan visa på en anställningsintervju för er egen skull!
+
+För godkänt krävs
+webbsidan validerar utan några fel https://validator.w3.org/
+inga fel eller varningar visas i konsolen (Ctrl+shift I -> conosle)
+projektet versionshanteras med Git
+webbsidan ligger på GitHub Pages
+ni använder CSS för att styla sidan
+ni använder CSS-attributet display
+ni använder layout element för att sätta plats på era element.
+
+För väl godkänt krävs dessutom
+ni använder media queries för att anpassa sidan för smalare skärmar (Alltså måste er desgn ha två lägen, ett för 16:9 widescreen och ett för 9:16 portrait)
+Uniform indentering i både HTML & CSS
+Bruk utav id och klasser i HTML & CSS för att minimera copypaste
+Till den mån det är möjligt, undvika HTML formateringstaggar och inline styles
