@@ -1,0 +1,58 @@
+{\rtf1}
+
+p {
+  background-color: blue;
+}
+body {
+  background-color: black;
+}
+.flexdiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.site-head {
+  background-color: Red;
+  width: 90%;
+  height: 20vh;
+  text-align: center;
+
+}
+.site-leftsidebar {
+  background-color: blue;
+  width: 20%;
+  height: 80vh;
+  order: 1;
+
+}
+.site-rightside {
+  background-color: green;
+  width: 70%;
+  height: 80vh;
+  order: 2;
+}
+.site-footer {
+  background-color: yellow;
+  width: 90%;
+  height: 5vh;
+  order: 3;
+}
+#headertext {
+  margin-top: 8vh;
+}
+
+/* exempel på hur man bytar ut kod om queryn stämmer
+@media not|only mediatype and (expressions) {
+  .site-head {
+    background-color: blue;
+  }
+}*/
+/* för att ha en sidomeny använd denna
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}*/

@@ -1,3 +1,41 @@
+
+
+Ni skall alltså göra en produktsida (Ta ert portfölj arbete eller hitta på en påhittad produkt) eller ett webb cv med er själva.
+Ni får gärna ta fram en egen design för sidan. Annars har ni ett gäng inspirationssidor här:
+
+
+https://www.apple.com/iphone/ - iphone
+https://www.pinterest.com/pin/258816309823226318/ - enkla CVn
+https://containo.us/traefik/ - något simplare product sida
+
+Ett exempel:
+
+
+Ett annat:
+
+Det ska finnas en ruta med en bild och lite allmän information om ämnet(er själva eller produkten).
+Notera att alla exempel tillämpar en layout med layout element.
+Detta är ett krav.
+
+Det ska finnas en lista med information om egenskaper på er själva eller er produkt.
+Exempel på kolumner CV kan vara kompetenser (C#, HTML, CSS, Windows, git med mera).
+Exempel på en product page kan vara features eller kommande features (Sharing, saving, webapp, phoneapp, login). exempel:
+
+eller
+
+
+
+
+Ni behöver också några paragrafer om er själva eller er produkt. Som beskriver den. Exempel:
+
+eller
+
+(Tänk er att det står massa intressanta saker om er som en anställd)
+
+Ni skall tänka på att sidan skall kunna visas på widescreen så väl som telefon.
+
+Alltså, om ni tillämpar en sidomeny layout så skall den läggas på höjd med mediaqueries vid behov:
+
 Inlämning
 Skicka en länk till webbsidan till läraren i ett gruppmeddelande på slack. Webbsidan ska vara publicerad på GitHub Pages.
 
