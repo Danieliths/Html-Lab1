@@ -29,6 +29,7 @@ figure {
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
+  overflow: auto;
 }
 .flexbox-aboutus {
   width: 100%;
@@ -36,7 +37,8 @@ figure {
   display: flex;
   flex-direction: row;
   order: 4;
-  background-color: blue;
+  background-color: white;
+  overflow-y: scroll:
 }
 .rightside-aboutus {
   width: 85%;
@@ -66,10 +68,8 @@ figure {
   order: 2;
 }
 .site-leftsidebar {
-  color: blue;
   width: 15%;
   height: 90%;
-  color: blue;
   order: 1;
 }
 .site-rightside {
@@ -84,6 +84,9 @@ figure {
 }
 #list {
   text-align: left;
+}
+#pic {
+  overflow-y: scroll:
 }
 @media screen and (max-aspect-ratio: 1/1 ) {
   .flexdiv {
