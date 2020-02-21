@@ -1,73 +1,98 @@
 {\rtf1}
 
-p {
-  background-color: blue;
-}
+
 body {
-  background-color: black;
+  background-color: white;
 }
-.flexdiv {
+figure {
+  display: flex;
+  height:20%;
+}
+.headerbox {
   width: 100%;
-  height: 100vh;
+  height: 20%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   text-align: center;
-
+}
+.filler {
+  width: 15%;
+  height: 100%;
+}
+.flexdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.icon {
+  height: 3em;
+  width: 3em;
+}
+.mobilepic {
+  height: 10em;
+  width: auto;
 }
 .site-head {
-  width: 100%;
-  height: 20%;
-  order: 1;
-  color: red;
-
+  justify-content:center;
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  height: 100%;
+  color: black;
+  overflow: auto;
+  order: 2;
 }
 .site-leftsidebar {
   color: blue;
-  width: 20%;
-  height: 75%;
+  width: 15%;
+  height: 90%;
   color: blue;
-  order: 2;
+  order: 1;
 }
 .site-rightside {
-  color: green;
-  width: 80%;
-  height: 75%;
+  width: 85%;
+  height: 90%;
   order: 3;
-}
-.site-footer {
-  color: yellow;
-  width: 100%;
-  height: 5%;
-  order: 4;
+
 }
 #headertext {
-  margin-top: 8vh;
+  align-items: center;
+  color: red;
+}
+#list {
+  text-align: left;
 }
 @media screen and (max-aspect-ratio: 1/1 ) {
   .flexdiv {
     flex-direction: column;
     flex-wrap: nowrap;
   }
-  .site-head {
-    width: 100%;
-    height: 20%;
-
-  }
   .site-leftsidebar {
+    justify-content:center;
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 40%;
-
+    height: 10%;
+    color: red;
+    overflow: auto;
   }
   .site-rightside {
     width: 100%;
-    height: 30%;
+    height: 65%;
   }
-  .site-footer {
+  .filler {
+    display: none;
+  }
+  .site-head {
     width: 100%;
-    height: 5%;
   }
+
 }
 
 /* exempel på hur man bytar ut kod om queryn stämmer
