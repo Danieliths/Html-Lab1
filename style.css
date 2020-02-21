@@ -1,6 +1,8 @@
 {\rtf1}
 
-
+p {
+  font-size: 2em;
+}
 body {
   background-color: white;
 }
@@ -92,17 +94,4 @@ figure {
   .site-head {
     width: 100%;
   }
-
 }
-
-/* exempel på hur man bytar ut kod om queryn stämmer
-@media not|only mediatype and (expressions) {
-  .site-head {
-    background-color: blue;
-  }
-}*/
-/* för att ha en sidomeny använd denna
-@media screen and (min-width: 480px) {
-  #leftsidebar {width: 200px; float: left;}
-  #main {margin-left: 216px;}
-}*/
