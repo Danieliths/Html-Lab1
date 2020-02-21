@@ -3,9 +3,6 @@
 p {
   font-size: 2em;
 }
-body {
-  background-color: white;
-}
 figure {
   display: flex;
   height:20%;
@@ -37,7 +34,6 @@ figure {
   display: flex;
   flex-direction: row;
   order: 4;
-  background-color: white;
   overflow-y: scroll:
 }
 .rightside-aboutus {
@@ -76,7 +72,6 @@ figure {
   width: 85%;
   height: 90%;
   order: 3;
-
 }
 #headertext {
   align-items: center;
