@@ -81,7 +81,7 @@ figure {
   text-align: left;
 }
 #pic {
-  overflow-y: scroll:
+  overflow-y: scroll;
 }
 @media screen and (max-aspect-ratio: 1/1 ) {
   .flexdiv {
@@ -108,7 +108,7 @@ figure {
   }
   .flexbox-aboutus {
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: baseline;
   }
   .rightside-aboutus {
